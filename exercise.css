@@ -89,7 +89,7 @@
 
 @keyframes rotate {
   0% {
-     transform: rotate(-360deg);
+    transform: rotate(-360deg);
   }
 }
 
@@ -109,3 +109,19 @@
     transform: rotate(0);
   }
 }
+
+/* ex12  */
+.ex-12-button:hover .ex-12-top-white {
+    animation: translate-top 2s linear;
+}
+@keyframes translate-top {
+  0% {
+    left: 10%;
+  }
+  50% {
+    left: 60%;
+  }
+  100% {
+    left: 10%;
+  }
+}    
