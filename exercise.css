@@ -24,3 +24,34 @@
 .ex-3-square:hover {
   border-radius: 50%;
 }
+
+/* ex4  */
+.ex-4-square {
+  transition: all 3s;
+}
+
+.ex-4-square:hover {
+  opacity: 0;
+}
+
+/* ex5  */
+.ex-5-square {
+  transition: all 3s;
+}
+
+.ex-5-square:hover {
+  scale: 2;
+}
+
+.ex-5-square:active {
+  scale: 1;
+}
+
+/* ex6  */
+img {
+  transition: all 3s;
+}
+
+img:hover {
+  filter: grayscale(1);
+}
