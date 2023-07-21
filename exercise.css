@@ -48,10 +48,6 @@
 }
 
 /* ex6  */
-img {
-  transition: all 3s;
-}
-
-img:hover {
+.ex-6-img:hover {
   filter: grayscale(1);
 }
