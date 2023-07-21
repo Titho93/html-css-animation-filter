@@ -125,3 +125,18 @@
     left: 10%;
   }
 }    
+
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: translate-bottom 2s linear;
+}
+  @keyframes translate-bottom {
+  0% {
+    right: 10%;
+  }
+  50% {
+    right: 60%;
+  }
+  100% {
+    right: 20%;
+  }
+}    
